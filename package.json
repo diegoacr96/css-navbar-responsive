@@ -4,12 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index",
+    "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lite": "lite-server index.html"
   },
   "keywords": [],
-  "author": "",
+  "author": "https://github.com/diegoacr96",
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.5.4"
