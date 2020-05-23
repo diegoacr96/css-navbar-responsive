@@ -1,0 +1,85 @@
+:root{
+    font-size: 16px;
+    font-family: 'lato';
+    --background-primary: #242038;
+    --background-secondary: #9067C6;
+    --text-primary: #F7ECE1
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+main{
+    margin: 0 5rem;
+    padding: 1rem 1rem;
+}
+
+.navbar{
+    position: fixed;
+    height: 100vh;
+    width: 5rem;
+    background-color: var(--background-primary);
+    padding: 0;
+    margin: 0;
+    transition: 200ms;
+}
+
+.navbar-nav {
+    padding: 1rem 0;
+    margin: 0;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.nav-link {
+    display: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav-item {
+    color: var(--text-primary);
+    margin: 0;
+    padding: 0.5rem 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.nav-item:last-child{
+    margin: 1.5rem 0;
+    margin-top: auto;
+}
+
+.navbar:hover{
+    width: 16rem;
+}
+
+.logo {
+    transform: rotate(0deg);
+    transition: 600ms;
+}
+
+.navbar:hover .logo {
+    transform: rotate(-180deg);
+}
+
+.navbar-nav:hover .nav-link {
+    display: flex;
+    justify-content: center;
+    align-self: center;;
+    width: 100%;
+}
+
+.navbar-nav .nav-item:hover{
+    background-color: var(--background-secondary);
+}
+
+.fas, .fab {
+    padding-right: 0.5rem;
+}
