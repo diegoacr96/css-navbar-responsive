@@ -10,7 +10,7 @@ Say what the step will be
 npm install
 ```
 
-And repeat
+And
 
 ```
 npm start
@@ -18,8 +18,8 @@ npm start
 
 ## Built With
 
-* [Dropwizard](https://fontawesome.com/) - font awesome
-* [Maven](https://github.com/johnpapa/lite-server) - Lite-server
+* [font awesome](https://fontawesome.com/)
+* [Lite-server](https://github.com/johnpapa/lite-server)
 
 ## Authors
 
